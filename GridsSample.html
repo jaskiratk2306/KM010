@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+.container{
+            background-color:rgba(225, 118, 127, 0.609);
+            border:7px beige dotted;
+            padding:30px;
+            display:grid;
+            grid-template:100px 100px/auto auto;
+            grid-gap:30px 50px;
+        }
+
+
+    #I1{
+        grid-row:1;
+        grid-column:1/span 2;
+        padding:10px;
+    }
+
+    #I2{
+        grid-row:3;
+        grid-row:2/span 3;
+    }
+
+    #I3{
+        grid-row:4;
+    }
+
+    #I6{
+        grid-row:5/span 2;
+
+    }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="Place" id="I1">Famous Tourism Places of India</div>
+        <div class="Place" id="I2">Taj Mahal</div>
+        <div class="Place" id="I3">India Gate</div>
+        <div class="Place" id="I4">Golden Temple</div>
+        <div class="Place" id="I5">Qutub Minar</div>
+        <div class="Place" id="I6">Gateway of India</div>
+        <div class="Place" id="p">Paragraph</div>
+
+    </div>
+    
+</body>
+</html>
